@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312A495A1DFF6EA70028E258 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A49591DFF6EA70028E258 /* WebViewController.swift */; };
+		312A495C1DFF6FFC0028E258 /* WebViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A495B1DFF6FFC0028E258 /* WebViewCell.swift */; };
+		312A495E1DFF88170028E258 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A495D1DFF88170028E258 /* UserProfileViewController.swift */; };
+		312A49601DFF8F2C0028E258 /* reminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A495F1DFF8F2C0028E258 /* reminderTableViewController.swift */; };
+		312A49621DFF8F310028E258 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A49611DFF8F310028E258 /* ReminderViewController.swift */; };
+		312A496E1DFFB0380028E258 /* calendar-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 312A496D1DFFB0380028E258 /* calendar-7.png */; };
+		312A49701DFFB04B0028E258 /* clock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 312A496F1DFFB04B0028E258 /* clock-7.png */; };
+		312A49721DFFB0870028E258 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 312A49711DFFB0870028E258 /* circle-user-7.png */; };
+		31D5F5381DFE3E4800422860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5371DFE3E4800422860 /* AppDelegate.swift */; };
+		31D5F53D1DFE3E4800422860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D5F53B1DFE3E4800422860 /* Main.storyboard */; };
+		31D5F5401DFE3E4800422860 /* HealthHippoAppointment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F53E1DFE3E4800422860 /* HealthHippoAppointment.xcdatamodeld */; };
+		31D5F5421DFE3E4800422860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D5F5411DFE3E4800422860 /* Assets.xcassets */; };
+		31D5F5451DFE3E4800422860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D5F5431DFE3E4800422860 /* LaunchScreen.storyboard */; };
+		31D5F54D1DFE5A3A00422860 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F54C1DFE5A3A00422860 /* AppointmentViewController.swift */; };
+		31D5F54F1DFE888000422860 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F54E1DFE888000422860 /* AppointmentTableViewCell.swift */; };
+		31D5F5511DFE888B00422860 /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5501DFE888B00422860 /* DoctorTableViewCell.swift */; };
+		31D5F5531DFE889D00422860 /* DateInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5521DFE889D00422860 /* DateInputTableViewCell.swift */; };
+		31D5F5551DFE88BA00422860 /* SymptomsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5541DFE88BA00422860 /* SymptomsTableViewCell.swift */; };
+		31D5F5571DFE88C800422860 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5561DFE88C800422860 /* QuestionTableViewCell.swift */; };
+		31D5F5591DFF14A500422860 /* AppointmentDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5581DFF14A500422860 /* AppointmentDisplayTableViewCell.swift */; };
+		31D5F55B1DFF14B100422860 /* DoctorDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F55A1DFF14B100422860 /* DoctorDisplayTableViewCell.swift */; };
+		31D5F55D1DFF14BD00422860 /* SymptomsDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F55C1DFF14BD00422860 /* SymptomsDisplayTableViewCell.swift */; };
+		31D5F55F1DFF14C900422860 /* DateDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F55E1DFF14C900422860 /* DateDisplayTableViewCell.swift */; };
+		31D5F5611DFF462200422860 /* AppointmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5601DFF462200422860 /* AppointmentsTableViewController.swift */; };
+		B515E0571DFFCBCC00C4EACB /* AudioRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515E0551DFFCBCC00C4EACB /* AudioRecorderViewController.swift */; };
+		B515E0581DFFCBCC00C4EACB /* AudioRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B515E0561DFFCBCC00C4EACB /* AudioRecorderViewController.xib */; };
+		B515E05B1DFFCBEE00C4EACB /* PlayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B515E0591DFFCBEE00C4EACB /* PlayButton@2x.png */; };
+		B515E05C1DFFCBEE00C4EACB /* StopButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B515E05A1DFFCBEE00C4EACB /* StopButton@2x.png */; };
+		B515E0601DFFCC0200C4EACB /* AudioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515E05D1DFFCC0200C4EACB /* AudioPlayerVC.swift */; };
+		B515E0611DFFCC0200C4EACB /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515E05E1DFFCC0200C4EACB /* RecordAudioViewController.swift */; };
+		B515E0621DFFCC0200C4EACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515E05F1DFFCC0200C4EACB /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312A49591DFF6EA70028E258 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		312A495B1DFF6FFC0028E258 /* WebViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewCell.swift; sourceTree = "<group>"; };
+		312A495D1DFF88170028E258 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		312A495F1DFF8F2C0028E258 /* reminderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reminderTableViewController.swift; sourceTree = "<group>"; };
+		312A49611DFF8F310028E258 /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		312A496D1DFFB0380028E258 /* calendar-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-7.png"; sourceTree = "<group>"; };
+		312A496F1DFFB04B0028E258 /* clock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-7.png"; sourceTree = "<group>"; };
+		312A49711DFFB0870028E258 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
+		31D5F5341DFE3E4800422860 /* HealthHippoAppointment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHippoAppointment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D5F5371DFE3E4800422860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31D5F53C1DFE3E4800422860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31D5F53F1DFE3E4800422860 /* HealthHippoAppointment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthHippoAppointment.xcdatamodel; sourceTree = "<group>"; };
+		31D5F5411DFE3E4800422860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31D5F5441DFE3E4800422860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31D5F5461DFE3E4800422860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D5F54C1DFE5A3A00422860 /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		31D5F54E1DFE888000422860 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F5501DFE888B00422860 /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F5521DFE889D00422860 /* DateInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInputTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F5541DFE88BA00422860 /* SymptomsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomsTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F5561DFE88C800422860 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F5581DFF14A500422860 /* AppointmentDisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F55A1DFF14B100422860 /* DoctorDisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F55C1DFF14BD00422860 /* SymptomsDisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomsDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F55E1DFF14C900422860 /* DateDisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		31D5F5601DFF462200422860 /* AppointmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsTableViewController.swift; sourceTree = "<group>"; };
+		B515E0551DFFCBCC00C4EACB /* AudioRecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewController.swift; sourceTree = "<group>"; };
+		B515E0561DFFCBCC00C4EACB /* AudioRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioRecorderViewController.xib; sourceTree = "<group>"; };
+		B515E0591DFFCBEE00C4EACB /* PlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@2x.png"; sourceTree = "<group>"; };
+		B515E05A1DFFCBEE00C4EACB /* StopButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StopButton@2x.png"; sourceTree = "<group>"; };
+		B515E05D1DFFCC0200C4EACB /* AudioPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerVC.swift; sourceTree = "<group>"; };
+		B515E05E1DFFCC0200C4EACB /* RecordAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		B515E05F1DFFCC0200C4EACB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31D5F5311DFE3E4800422860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31D5F52B1DFE3E4800422860 = {
+			isa = PBXGroup;
+			children = (
+				31D5F5361DFE3E4800422860 /* HealthHippoAppointment */,
+				31D5F5351DFE3E4800422860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31D5F5351DFE3E4800422860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D5F5341DFE3E4800422860 /* HealthHippoAppointment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31D5F5361DFE3E4800422860 /* HealthHippoAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				31D5F5371DFE3E4800422860 /* AppDelegate.swift */,
+				31D5F53B1DFE3E4800422860 /* Main.storyboard */,
+				31D5F5411DFE3E4800422860 /* Assets.xcassets */,
+				31D5F5431DFE3E4800422860 /* LaunchScreen.storyboard */,
+				31D5F5461DFE3E4800422860 /* Info.plist */,
+				B515E0521DFFCB8000C4EACB /* AudioPlayer */,
+				31D5F53E1DFE3E4800422860 /* HealthHippoAppointment.xcdatamodeld */,
+				31D5F5601DFF462200422860 /* AppointmentsTableViewController.swift */,
+				31D5F54C1DFE5A3A00422860 /* AppointmentViewController.swift */,
+				B515E0531DFFCB8F00C4EACB /* AudioRecorder */,
+				31D5F54E1DFE888000422860 /* AppointmentTableViewCell.swift */,
+				31D5F5501DFE888B00422860 /* DoctorTableViewCell.swift */,
+				31D5F5521DFE889D00422860 /* DateInputTableViewCell.swift */,
+				31D5F5541DFE88BA00422860 /* SymptomsTableViewCell.swift */,
+				31D5F5561DFE88C800422860 /* QuestionTableViewCell.swift */,
+				31D5F5581DFF14A500422860 /* AppointmentDisplayTableViewCell.swift */,
+				31D5F55A1DFF14B100422860 /* DoctorDisplayTableViewCell.swift */,
+				31D5F55C1DFF14BD00422860 /* SymptomsDisplayTableViewCell.swift */,
+				31D5F55E1DFF14C900422860 /* DateDisplayTableViewCell.swift */,
+				312A49591DFF6EA70028E258 /* WebViewController.swift */,
+				312A495B1DFF6FFC0028E258 /* WebViewCell.swift */,
+				312A495D1DFF88170028E258 /* UserProfileViewController.swift */,
+				312A495F1DFF8F2C0028E258 /* reminderTableViewController.swift */,
+				312A49611DFF8F310028E258 /* ReminderViewController.swift */,
+				312A496D1DFFB0380028E258 /* calendar-7.png */,
+				312A496F1DFFB04B0028E258 /* clock-7.png */,
+				312A49711DFFB0870028E258 /* circle-user-7.png */,
+			);
+			path = HealthHippoAppointment;
+			sourceTree = "<group>";
+		};
+		B515E0521DFFCB8000C4EACB /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B515E05D1DFFCC0200C4EACB /* AudioPlayerVC.swift */,
+				B515E05E1DFFCC0200C4EACB /* RecordAudioViewController.swift */,
+				B515E05F1DFFCC0200C4EACB /* ViewController.swift */,
+			);
+			name = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		B515E0531DFFCB8F00C4EACB /* AudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				B515E0591DFFCBEE00C4EACB /* PlayButton@2x.png */,
+				B515E05A1DFFCBEE00C4EACB /* StopButton@2x.png */,
+				B515E0551DFFCBCC00C4EACB /* AudioRecorderViewController.swift */,
+				B515E0561DFFCBCC00C4EACB /* AudioRecorderViewController.xib */,
+			);
+			name = AudioRecorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31D5F5331DFE3E4800422860 /* HealthHippoAppointment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D5F5491DFE3E4800422860 /* Build configuration list for PBXNativeTarget "HealthHippoAppointment" */;
+			buildPhases = (
+				31D5F5301DFE3E4800422860 /* Sources */,
+				31D5F5311DFE3E4800422860 /* Frameworks */,
+				31D5F5321DFE3E4800422860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthHippoAppointment;
+			productName = HealthHippoAppointment;
+			productReference = 31D5F5341DFE3E4800422860 /* HealthHippoAppointment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31D5F52C1DFE3E4800422860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matthew Romero Moore";
+				TargetAttributes = {
+					31D5F5331DFE3E4800422860 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31D5F52F1DFE3E4800422860 /* Build configuration list for PBXProject "HealthHippoAppointment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31D5F52B1DFE3E4800422860;
+			productRefGroup = 31D5F5351DFE3E4800422860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31D5F5331DFE3E4800422860 /* HealthHippoAppointment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31D5F5321DFE3E4800422860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B515E05B1DFFCBEE00C4EACB /* PlayButton@2x.png in Resources */,
+				31D5F5451DFE3E4800422860 /* LaunchScreen.storyboard in Resources */,
+				31D5F5421DFE3E4800422860 /* Assets.xcassets in Resources */,
+				31D5F53D1DFE3E4800422860 /* Main.storyboard in Resources */,
+				312A496E1DFFB0380028E258 /* calendar-7.png in Resources */,
+				B515E0581DFFCBCC00C4EACB /* AudioRecorderViewController.xib in Resources */,
+				312A49721DFFB0870028E258 /* circle-user-7.png in Resources */,
+				312A49701DFFB04B0028E258 /* clock-7.png in Resources */,
+				B515E05C1DFFCBEE00C4EACB /* StopButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31D5F5301DFE3E4800422860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D5F55F1DFF14C900422860 /* DateDisplayTableViewCell.swift in Sources */,
+				31D5F54D1DFE5A3A00422860 /* AppointmentViewController.swift in Sources */,
+				B515E0571DFFCBCC00C4EACB /* AudioRecorderViewController.swift in Sources */,
+				31D5F5591DFF14A500422860 /* AppointmentDisplayTableViewCell.swift in Sources */,
+				B515E0621DFFCC0200C4EACB /* ViewController.swift in Sources */,
+				31D5F55B1DFF14B100422860 /* DoctorDisplayTableViewCell.swift in Sources */,
+				31D5F5571DFE88C800422860 /* QuestionTableViewCell.swift in Sources */,
+				31D5F5401DFE3E4800422860 /* HealthHippoAppointment.xcdatamodeld in Sources */,
+				31D5F55D1DFF14BD00422860 /* SymptomsDisplayTableViewCell.swift in Sources */,
+				31D5F5381DFE3E4800422860 /* AppDelegate.swift in Sources */,
+				31D5F54F1DFE888000422860 /* AppointmentTableViewCell.swift in Sources */,
+				312A495E1DFF88170028E258 /* UserProfileViewController.swift in Sources */,
+				31D5F5551DFE88BA00422860 /* SymptomsTableViewCell.swift in Sources */,
+				B515E0611DFFCC0200C4EACB /* RecordAudioViewController.swift in Sources */,
+				312A495C1DFF6FFC0028E258 /* WebViewCell.swift in Sources */,
+				31D5F5531DFE889D00422860 /* DateInputTableViewCell.swift in Sources */,
+				312A495A1DFF6EA70028E258 /* WebViewController.swift in Sources */,
+				312A49621DFF8F310028E258 /* ReminderViewController.swift in Sources */,
+				31D5F5611DFF462200422860 /* AppointmentsTableViewController.swift in Sources */,
+				31D5F5511DFE888B00422860 /* DoctorTableViewCell.swift in Sources */,
+				B515E0601DFFCC0200C4EACB /* AudioPlayerVC.swift in Sources */,
+				312A49601DFF8F2C0028E258 /* reminderTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31D5F53B1DFE3E4800422860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D5F53C1DFE3E4800422860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31D5F5431DFE3E4800422860 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D5F5441DFE3E4800422860 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31D5F5471DFE3E4800422860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31D5F5481DFE3E4800422860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31D5F54A1DFE3E4800422860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthHippoAppointment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.HealthHippoAppointment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		31D5F54B1DFE3E4800422860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthHippoAppointment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.HealthHippoAppointment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31D5F52F1DFE3E4800422860 /* Build configuration list for PBXProject "HealthHippoAppointment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D5F5471DFE3E4800422860 /* Debug */,
+				31D5F5481DFE3E4800422860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D5F5491DFE3E4800422860 /* Build configuration list for PBXNativeTarget "HealthHippoAppointment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D5F54A1DFE3E4800422860 /* Debug */,
+				31D5F54B1DFE3E4800422860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31D5F53E1DFE3E4800422860 /* HealthHippoAppointment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31D5F53F1DFE3E4800422860 /* HealthHippoAppointment.xcdatamodel */,
+			);
+			currentVersion = 31D5F53F1DFE3E4800422860 /* HealthHippoAppointment.xcdatamodel */;
+			path = HealthHippoAppointment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31D5F52C1DFE3E4800422860 /* Project object */;
+}

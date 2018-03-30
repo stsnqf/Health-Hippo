@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthHippoAppointment/WebViewCell.swift"
+            timestampString = "503282912.399221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "search(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HealthHippoAppointment.WebViewCell.search (Any) -&gt; ()"
+                  moduleName = "HealthHippoAppointment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewromeromoore/Documents/INFOTC_4500/HealthHippoAppointment/HealthHippoAppointment/WebViewCell.swift"
+                  timestampString = "503282641.425488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1212">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HealthHippoAppointment.WebViewCell.search (Any) -&gt; ()"
+                  moduleName = "HealthHippoAppointment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewromeromoore/Documents/INFOTC_4500/HealthHippoAppointment/HealthHippoAppointment/WebViewCell.swift"
+                  timestampString = "503282641.428465"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1363">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
